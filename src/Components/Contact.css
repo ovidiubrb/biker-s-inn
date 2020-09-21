@@ -1,0 +1,15 @@
+.contact {
+  margin-top: 100px;
+}
+
+.contact__info {
+  width: 500px;
+  /* text-align: start; */
+  text-align: start;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}

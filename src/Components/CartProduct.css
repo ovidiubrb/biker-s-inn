@@ -1,0 +1,39 @@
+.cartProduct {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  background-color: white;
+  font-weight: 800;
+  border-bottom: 2px solid #f1f1fa;
+}
+.cartProduct__img {
+  width: 100px;
+  object-fit: contain;
+}
+body {
+  background-color: #fafafa;
+}
+
+.cart__button {
+  background-color: white;
+  margin: 3px;
+  /* height: 50px;
+  width: 50px; */
+  border: 0;
+}
+.cart__button:focus {
+  outline: 0;
+}
+.cartProduct__info {
+  width: 300px;
+}
+.cartProduct__subtotal {
+  position: relative;
+  width: 300px;
+  margin-left: 250px;
+}
+
+#subtotal {
+  position: absolute;
+  bottom: 0;
+}

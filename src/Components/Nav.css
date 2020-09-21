@@ -1,0 +1,35 @@
+.nav {
+  background-color: #f2f6f7;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.nav__logo {
+  width: 100px;
+  object-fit: contain;
+  height: 60px;
+  margin-left: 80px;
+}
+
+.nav__options {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-right: 60px;
+  font-weight: 800;
+}
+.nav__option {
+  margin-right: 50px;
+  margin-left: 50px;
+  color: #111;
+  font-size: large;
+}
+.nav__counter {
+  color: #111;
+  font-weight: 700;
+  margin-left: -50px;
+  font-size: large;
+}

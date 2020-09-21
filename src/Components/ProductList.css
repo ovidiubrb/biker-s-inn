@@ -1,0 +1,8 @@
+.prod {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
